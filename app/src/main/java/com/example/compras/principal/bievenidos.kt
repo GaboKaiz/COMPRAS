@@ -9,6 +9,8 @@ import com.example.compras.principal.bievenidos
 import com.example.compras.principal.MainActivity
 import com.example.compras.sesiones.registro
 import com.example.compras.sesiones.login
+import com.example.compras.sesiones.omitir
+
 
 
 class bievenidos : AppCompatActivity() {
@@ -16,15 +18,19 @@ class bievenidos : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.bienvenidos)
 
-        // Botón SENATRONIC II
+        // Botón Login
         findViewById<Button>(R.id.btnLogin).setOnClickListener {
             startActivity(Intent(this, login::class.java))
         }
 
-        // Botón Ingresar Empresa Software
+        // Botón registrar
         findViewById<Button>(R.id.btnRegistro).setOnClickListener {
             startActivity(Intent(this, registro::class.java))
         }
 
+        // Botón omitir
+        findViewById<Button>(R.id.btnOmitir).setOnClickListener {
+            startActivity(Intent(this, omitir::class.java))
+        }
     }
 }

@@ -12,12 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMPRAS"
         tools:targetApi="31">
+
         <activity
             android:name=".principal.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -33,6 +33,21 @@
         <activity
             android:name=".sesiones.registro"
             android:exported="true"/>
+
+        <activity
+            android:name=".sesiones.omitir"
+            android:exported="true"/>
+
+        <activity
+            android:name=".inicio.inicio"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <!-- 🚀 Agregamos la pantalla "anuncio" -->
+        <activity
+            android:name=".principal.anuncio"
+            android:exported="true"/>
+
     </application>
 
 </manifest>

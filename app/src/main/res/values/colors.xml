@@ -4,9 +4,16 @@
     <color name="white">#FFFFFFFF</color>
     <color name="negro_azulado">#0C1821</color>
     <color name="vino">#8B3A62</color>
-    <color name="naranja_quemado">#E2775D</color>
+    <color name="orange">#E2775D</color>
     <color name="azul_oscuro">#1B2338</color>
     <color name="blanco">#FFFFFF</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#333333</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="gray_hint">#888888</color>
+    <color name="red">#FF5722</color> <!-- Naranja quemado -->
+    <color name="accent">#FFC107</color> <!-- Amarillo -->
+
     <array name="degradado_colores">
         <item>#E2775D</item>
         <item>#8B3A62</item>

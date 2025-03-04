@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/prueba"
+        android:title="Inicio"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_buscar"
+        android:title="Buscar"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_notificaciones"
+        android:title="Notificaciones"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_mis_compras"
+        android:title="Mis compras"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_favoritos"
+        android:title="Favoritos"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_subir_productos"
+        android:title="Subir Productos"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_cuenta"
+        android:title="Mi cuenta"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_vender"
+        android:title="Vender"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_categorias"
+        android:title="Categorías"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_tiendas"
+        android:title="Tiendas oficiales"
+        android:icon="@drawable/img" />
+
+    <item android:id="@+id/nav_ayuda"
+        android:title="Ayuda"
+        android:icon="@drawable/img" />
+
+</menu>
