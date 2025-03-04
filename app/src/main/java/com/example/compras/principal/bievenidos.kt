@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.compras.R
+import com.example.compras.inicio.inicio
 import com.example.compras.principal.bievenidos
 import com.example.compras.principal.MainActivity
 import com.example.compras.sesiones.registro
@@ -30,7 +31,7 @@ class bievenidos : AppCompatActivity() {
 
         // Botón omitir
         findViewById<Button>(R.id.btnOmitir).setOnClickListener {
-            startActivity(Intent(this, omitir::class.java))
+            startActivity(Intent(this, inicio::class.java))
         }
     }
 }

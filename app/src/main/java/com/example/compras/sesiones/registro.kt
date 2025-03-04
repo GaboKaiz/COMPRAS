@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.compras.R
@@ -25,6 +26,8 @@ class registro : AppCompatActivity() {
         val edtPassword: EditText = findViewById(R.id.edtPassword)
         val btnRegistro: Button = findViewById(R.id.btnRegistro)
         val btnRetroceder: ImageButton = findViewById(R.id.btnretroceder)
+        val btnLogin = findViewById<TextView>(R.id.btnLogin)
+
 
         btnRegistro.setOnClickListener {
             val correo = edtCorreo.text.toString().trim()
@@ -47,7 +50,10 @@ class registro : AppCompatActivity() {
         }
 
         btnRetroceder.setOnClickListener {
-            startActivity(Intent(this, bievenidos::class.java))
+            finish()
+        }
+        btnLogin.setOnClickListener {
+            startActivity(Intent(this, login::class.java))
         }
     }
 }
